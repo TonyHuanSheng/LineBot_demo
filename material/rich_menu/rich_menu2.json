@@ -1,0 +1,62 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "圖文選單 6",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 35,
+        "y": 21,
+        "width": 1180,
+        "height": 833
+      },
+      "action": {
+        "type": "postback",
+        "text": "找風格",
+        "data": "123"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1268,
+        "y": 18,
+        "width": 1203,
+        "height": 817
+      },
+      "action": {
+        "type": "postback",
+        "text": "傢俱",
+        "data": "153"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1270,
+        "y": 887,
+        "width": 1196,
+        "height": 792
+      },
+      "action": {
+        "type": "postback",
+        "text": "基本資料",
+        "data": "13"
+      }
+    },
+    {
+      "bounds": {
+        "x": 34,
+        "y": 887,
+        "width": 1184,
+        "height": 785
+      },
+      "action": {
+        "type": "uri",
+        "uri": "https://line.me/R/nv/camera/"
+      }
+    }
+  ]
+}

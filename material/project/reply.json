@@ -1,0 +1,74 @@
+[
+  {
+  "type": "text",
+  "text": "請選擇喜好品項 >>",
+  "quickReply": {
+    "items": [
+      {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "床",
+          "text": "床",
+          "data": "folder=price&tag=beds&name=category"
+        }
+      },
+      {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "邊桌",
+          "text": "邊桌",
+          "data": "folder=price&tag=coffee-and-side-table&name=category"
+        }
+      },
+      {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "餐椅",
+          "text": "餐椅",
+          "data": "folder=price&tag=dining-seating&name=category"
+        }
+      },
+        {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "餐桌",
+          "text": "餐桌",
+          "data": "folder=price&tag=dining-tables&name=category"
+        }
+      },
+      {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "工作椅",
+          "text": "工作椅",
+          "data": "folder=price&tag=work-chairs&name=category"
+        }
+      },
+      {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "工作桌",
+          "text": "工作桌",
+          "data": "folder=price&tag=work-desks&name=category"
+        }
+      }
+
+
+
+
+    ]
+  }
+}
+  ]

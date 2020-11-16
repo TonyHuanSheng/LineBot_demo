@@ -1,0 +1,50 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "圖文選單 5",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 20,
+        "y": 28,
+        "width": 1587,
+        "height": 1608
+      },
+      "action": {
+        "type": "postback",
+        "text": "一鍵推薦",
+        "data": "action=recommend"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1632,
+        "y": 8,
+        "width": 857,
+        "height": 818
+      },
+      "action": {
+        "type": "postback",
+        "text": "基本資料",
+        "data": "information=123"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1631,
+        "y": 853,
+        "width": 858,
+        "height": 805
+      },
+     "action": {
+        "type": "postback",
+        "text": "傢俱",
+        "data": "action=init&folder=survey"
+      }
+    }
+  ]
+}

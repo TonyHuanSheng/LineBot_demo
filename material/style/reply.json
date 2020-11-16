@@ -1,0 +1,42 @@
+[
+  {
+  "type": "text",
+  "text": "請選擇喜好風格>",
+  "quickReply": {
+    "items": [
+          {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "北歐風",
+          "text": "北歐風",
+          "data": "folder=project&tag=northEur&name=style"
+        }
+      },
+      {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "現代風",
+          "text": "現代風",
+          "data": "folder=project&tag=Morden&name=style"
+        }
+      },
+      {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "鄉村風",
+          "text": "鄉村風",
+          "data": "folder=project&tag=Rustic&name=style"
+        }
+      }
+
+
+    ]
+  }
+}
+  ]

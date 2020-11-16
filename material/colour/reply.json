@@ -1,0 +1,100 @@
+[
+  {
+  "type": "text",
+  "text": "請選擇喜好顏色>",
+  "quickReply": {
+    "items": [
+      {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "黑色",
+          "text": "黑色",
+          "data": "tag=黑色&name=colour&end=123"
+        }
+      },
+      {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "白色",
+          "text": "白色",
+          "data": "tag=白色&name=colour&end=123"
+        }
+      },
+      {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "藍色",
+          "text": "藍色",
+          "data": "tag=藍色&name=colour&end=123"
+        }
+      },
+            {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "棕色",
+          "text": "棕色",
+          "data": "tag=棕色&name=colour&end=123"
+        }
+      },
+            {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "灰色",
+          "text": "灰色",
+          "data": "tag=灰色&name=colour&end=123"
+        }
+      },
+            {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "綠色",
+          "text": "綠色",
+          "data": "tag=綠色&name=colour&end=123"
+        }
+      },
+            {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "米色",
+          "text": "米色",
+          "data": "tag=米色&name=colour&end=123"
+        }
+      },
+            {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "紅色",
+          "text": "紅色",
+          "data": "tag=紅色&name=colour&end=123"
+        }
+      },
+      {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "特殊色",
+          "text": "特殊色",
+          "data": "tag=特殊色&name=colour&end=123"
+        }
+      }
+    ]
+  }
+}
+  ]

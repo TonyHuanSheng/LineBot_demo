@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "*"
+line-bot-sdk = "*"
+pymysql = "*"
+flask-bootstrap = "*"
+flask-sqlalchemy = "*"
+flask-wtf = "*"
+numpy = "==1.19.3"
+sklearn = "*"
+pandas = "*"
+
+[requires]
+python_version = "3.7"

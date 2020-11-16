@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mysqsl_test</title>
+    <!--style type="text/css">
+  body {
+    padding-left: 11em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: purple;
+    background-color: #d8da3d }
+  ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+
+
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+  ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+  ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color: blue }
+  a:visited {
+    color: purple }
+  address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+  </style-->
+
+
+</head>
+<!-- 目錄 -->
+<!--ul class="navbar">
+  <li><a href="index.html">首頁</a>
+  <li><a href="musings.html">連接1</a>
+  <li><a href="town.html">連接2</a>
+  <li><a href="links.html">連接3</a>
+</ul-->
+
+
+<body>
+<h1> 會員資料 </h1>
+    <form method='post' action= "{{ url_for('submit') }}">
+    <input type="hidden" name="user_ID" value="{{ ID }}">
+        <fieldset>
+            <legend>個人資料</legend>
+                 <!-- 單行文字方塊 -->
+                姓&nbsp;&nbsp;&nbsp;名：<input type="textbox" name="name" size="40"style="font-size:16px;padding:10px"placeholder="Ex:王小明" required><br><br>
+                E-Mail：<input type="textbox" name="email" size="40" style="font-size:16px;padding:10px" placeholder="Username@mailserver" required ><br><br>
+
+                <!-- 下拉式選單 -->
+                性別:
+                    <select  style="font-size:16px;padding:10px"  name = "gender"  >
+                        <option value = '1' >男</option>
+                        <option value = '2' >女</option>
+                    </select><br><br>
+
+                <!-- 選擇鈕 -->
+                年&nbsp;&nbsp;&nbsp;齡：
+                <input type="radio" name="age" value="age1">未滿20歲
+                <input type="radio" name="age" value="age2" checked>20~29
+                <input type="radio" name="age" value="age3">30~39
+                <input type="radio" name="age" value="age4">40~49
+                <input type="radio" name="age" value="age5">50歲以上<br>
+        </fieldset>
+
+        <!-- fieldset>
+            <legend>選擇</legend-->
+            <!--
+            <div class="checkbox">
+                 <label><input type="checkbox"  name="colour" value="1">淺灰色</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name="colour" value="2">深灰色</label>
+
+            </div>
+            <div class="checkox">
+               <label><input type="checkbox" name="colour" value="3">木頭黃色</label>
+            </div>
+            <div>
+                <label><input type="checkbox" name="colour" value="4">藍色</label>
+            </div>
+            <div>
+                <label><input type="checkbox" name="colour" value="5">橘色</label>
+            </div>
+            <div>
+                <label><input type="checkbox" name="colour" value="6">黃色</label>
+            </div>
+            <div>
+                <label><input type="checkbox" name="colour" value="7">白色</label>
+            </div>
+            <div>
+                <label><input type="checkbox" name="colour" value="8">黑色</label>
+            </div>-->
+            <!--div>
+                <input type="radio" name="price" value="Interval1">5000 以下
+                <input type="radio" name="price" value="Interval2" checked>5000 ~ 1萬
+                <input type="radio" name="price" value="Interval3">1萬 ~ 1萬5
+                <input type="radio" name="price" value="Interval4">1萬5 ~ 2萬
+                <input type="radio" name="price" value="Interval5">不限<br>
+            </div>
+        </fieldset-->
+        <!--div>
+            <label>推薦傢俱品項選擇<span class = 'r'></span></label>
+            <select  name = "Furniture"  >
+                <option value = '1' >沙發</option>
+                <option value = '2' >桌子</option>
+                <option value = '3' >餐椅</option>
+                <option value = '4' >床</option>
+            </select>
+        </div-->
+        <br>
+            <br>
+            <br>
+        <p><button type = 'submit'>確認送出</button></p>
+    </form>
+</body>
+</html>

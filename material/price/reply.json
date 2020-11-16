@@ -1,0 +1,75 @@
+[
+  {
+  "type": "text",
+  "text": "請選擇價格區間 >>",
+  "quickReply": {
+    "items": [
+       {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "不限",
+          "text": "不限",
+          "data": "folder=colour&tag=>0&name=price"
+        }
+      },
+
+      {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "低於 2000",
+          "text": "低於 2000",
+          "data": "folder=colour&tag=BETWEEN 0 AND 2000&name=price"
+        }
+      },
+      {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "2001 ~ 4000",
+          "text": "2001 ~ 4000",
+          "data": "folder=colour&tag= BETWEEN 2001 AND 4000&name=price"
+        }
+      },
+      {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "4001 ~ 7000",
+          "text": "4001 ~ 7000",
+          "data": "folder=colour&tag= BETWEEN 4001 AND 7000&name=price"
+        }
+      },
+        {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "7001 ~ 13000",
+          "text": "7001 ~ 13000",
+          "data": "folder=colour&tag= BETWEEN 7001 AND 13000&name=price"
+        }
+      },
+      {
+        "type": "action",
+        "imageUrl": "",
+        "action": {
+          "type": "postback",
+          "label": "以上13000",
+          "text": "以上13000",
+          "data": "folder=colour&tag=>13000&name=price"
+        }
+      }
+
+
+
+
+    ]
+  }
+}
+  ]

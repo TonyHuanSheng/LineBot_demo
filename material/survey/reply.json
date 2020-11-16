@@ -1,0 +1,24 @@
+[
+  {
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://linshibi.com/wp-content/uploads/home_bg_R_photo.png",
+        "title": "傢俱偏好查找系統",
+        "text": "提供用戶快速查找偏好問卷 ，請挑選喜好選項",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "開始設定",
+            "text": "傢俱-開始設定",
+            "data": "folder=style"
+          }
+        ]
+      }
+    ]
+  }
+}
+  ]
